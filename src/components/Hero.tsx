@@ -20,10 +20,10 @@ export const Hero = () => {
         </h1>
 
         <div className="gap-y-6 flex flex-col">
-          <button className="font-2 text-xl rounded-full px-4 py-3 bg-[#fff] text-black w-full">
+          <button className="shadow-button font-2 text-xl rounded-full py-3 bg-[#fff] text-black w-[calc(30vw+50px)]">
             Services
           </button>
-          <button className="font-2 text-xl rounded-full px-4 py-3 border border-[#fff] text-white w-full">
+          <button className="shadow-button font-2 text-xl rounded-full py-3 border border-[#fff] text-white w-[calc(30vw+50px)]">
             See More
           </button>
         </div>
