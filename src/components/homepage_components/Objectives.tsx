@@ -46,7 +46,10 @@ export const Objectives = () => {
         {objectivesDict.map((obj, index) => {
           const isOpen = openIndex === index;
           return (
-            <li key={index} className="border-l-2 border-white pl-2 relative">
+            <li
+              key={index}
+              className="border-l-2 border-primaryL pl-2 relative"
+            >
               <div
                 className={`flex items-center justify-between cursor-pointer py-1`}
                 onClick={() => toggleIndex(index)}

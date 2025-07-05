@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Atkinson_Hyperlegible } from "next/font/google";
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/comum_components/Header";
 
 const instrument_sans = Instrument_Sans({
   variable: "--font-instrument-sans",
@@ -27,7 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={(instrument_sans.variable, atkinson.variable)}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

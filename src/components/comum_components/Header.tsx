@@ -10,7 +10,7 @@ export const Header = () => {
           height={223}
           alt="Leveling logo"
           src="/logo_header.png"
-          className="w-10 aspect-square m-4"
+          className="w-10 aspect-square ml-6 mt-3"
         />
       </div>
     </header>

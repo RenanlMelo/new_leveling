@@ -5,6 +5,9 @@
   --foreground: #171717;
   --font-instrument-sans: "Instrument Sans", sans-serif;
   --font-atkinson: "Atkinson Hyperlegible", mono;
+  --primary: #123524;
+  --primaryL: #348e62;
+  --primaryxL: #41b17b;
 }
 
 @theme inline {
@@ -12,6 +15,9 @@
   --color-foreground: var(--foreground);
   --font-1: var(--font-instrument-sans);
   --font-2: var(--font-atkinson);
+  --color-primary: var(--primary);
+  --color-primaryL: var(--primaryL);
+  --color-primaryxL: var(--primaryxL);
 }
 
 @media (prefers-color-scheme: dark) {
