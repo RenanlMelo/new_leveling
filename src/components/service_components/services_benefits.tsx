@@ -32,7 +32,7 @@ export const Services_Benefits = () => {
     },
   ];
   return (
-    <section className="px-6 mb-16 max-w-4xl mx-auto text-gray-200">
+    <section className="px-6 mb-20">
       <h2 className="text-primaryL font-semibold text-3xl mb-4">
         Key Benefits of RPA
       </h2>

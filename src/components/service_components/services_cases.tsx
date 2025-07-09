@@ -25,7 +25,7 @@ export const Services_Cases = () => {
     },
   ];
   return (
-    <section className="px-6 mb-16 max-w-4xl mx-auto text-gray-200">
+    <section className="px-6 mb-20 text-gray-200">
       <h2 className="text-primaryL font-semibold text-3xl mb-6">
         Common Use Cases
       </h2>

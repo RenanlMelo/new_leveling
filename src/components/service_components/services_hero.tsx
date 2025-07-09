@@ -2,7 +2,7 @@ import React from "react";
 
 export const Services_Hero = () => {
   return (
-    <section className="px-6 pt-12 pb-20">
+    <section className="px-6 mb-20">
       <h1 className="uppercase font-bold text-4xl lg:text-5xl bg-gradient-to-r from-white to-[#737373] bg-clip-text text-transparent w-fit mb-8">
         RPA Solutions
       </h1>
