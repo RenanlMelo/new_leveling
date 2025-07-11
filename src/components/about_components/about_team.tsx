@@ -11,12 +11,12 @@ export const About_Team = () => {
     {
       name: "Bruno Reis",
       title: "Full-Stack Developer",
-      image: "/profile1.jpg",
+      image: "/profile2.jpg",
     },
     {
       name: "Kevin Scavassin",
       title: "UI/UX Designer",
-      image: "/profile1.jpg",
+      image: "/profile3.jpg",
     },
   ];
   return (

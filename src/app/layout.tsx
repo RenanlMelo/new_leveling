@@ -3,6 +3,9 @@ import { Atkinson_Hyperlegible } from "next/font/google";
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/comum_components/Header";
+import { Footer } from "@/components/comum_components/Footer";
+import { Home_Button } from "@/components/comum_components/HomeButton";
+import { Route_Tracker } from "@/components/comum_components/RouteTracker";
 
 const instrument_sans = Instrument_Sans({
   variable: "--font-instrument-sans",
@@ -30,7 +33,9 @@ export default function RootLayout({
     <html lang="en" className={(instrument_sans.variable, atkinson.variable)}>
       <body className="antialiased">
         <Header />
+        <Route_Tracker />
         {children}
+        <Footer />
       </body>
     </html>
   );

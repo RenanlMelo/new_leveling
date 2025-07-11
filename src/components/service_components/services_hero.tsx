@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export const Services_Hero = () => {
@@ -10,6 +11,13 @@ export const Services_Hero = () => {
       <h2 className="text-primaryL font-semibold text-3xl mb-4">
         Key Services for Your Business
       </h2>
+      <Image
+        width={512}
+        height={512}
+        src="/services.jpg"
+        alt="Service hero image"
+        className="rounded-lg mb-4"
+      />
       <div className="grid gap-6 mb-1">
         <div className="bg-[#141414] p-6 rounded-xl">
           <h3 className="text-xl font-semibold mb-2 text-white">

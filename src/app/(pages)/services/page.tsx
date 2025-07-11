@@ -13,13 +13,13 @@ export default function Services() {
 
         <Services_Hero />
 
+        <Service_Contact />
+
         <Services_Benefits />
 
         <Services_Cases />
 
         <Services_RpaEvolution />
-
-        <Service_Contact />
       </main>
     </>
   );
